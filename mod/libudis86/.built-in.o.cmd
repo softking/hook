@@ -1,0 +1,1 @@
+cmd_/root/sunshaolei/kmod/libudis86/built-in.o :=  ld -m elf_x86_64   -r -o /root/sunshaolei/kmod/libudis86/built-in.o /root/sunshaolei/kmod/libudis86/decode.o /root/sunshaolei/kmod/libudis86/itab.o /root/sunshaolei/kmod/libudis86/udis86.o ; scripts/mod/modpost /root/sunshaolei/kmod/libudis86/built-in.o

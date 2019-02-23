@@ -1,0 +1,1 @@
+cmd_/root/sunshaolei/kmod/execmon.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /root/sunshaolei/kmod/execmon.ko /root/sunshaolei/kmod/execmon.o /root/sunshaolei/kmod/execmon.mod.o

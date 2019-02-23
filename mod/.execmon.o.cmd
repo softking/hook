@@ -1,0 +1,1 @@
+cmd_/root/sunshaolei/kmod/execmon.o := ld -m elf_x86_64   -r -o /root/sunshaolei/kmod/execmon.o /root/sunshaolei/kmod/main.o /root/sunshaolei/kmod/mem.o /root/sunshaolei/kmod/syscalls.o /root/sunshaolei/kmod/libudis86/built-in.o ; scripts/mod/modpost /root/sunshaolei/kmod/execmon.o
