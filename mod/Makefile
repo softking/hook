@@ -1,4 +1,4 @@
-NAME		:= execmon
+NAME		:= hookexecve
 obj-m		:= $(NAME).o
 obj-y 		:= libudis86/
 KERNEL_DIR	?= /lib/modules/$(shell uname -r)/build
